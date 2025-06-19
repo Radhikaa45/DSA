@@ -1,3 +1,5 @@
+//move all the zero elements at the last of the array
+
 import java.util.Scanner;
 
 public class MoveZeoes {

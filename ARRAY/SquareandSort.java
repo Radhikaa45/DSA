@@ -17,7 +17,7 @@ public class SquareandSort {
         for(int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-         System.out.println("Enter the elements of the array:");
+         
         for(int i = 0; i < n; i++) {
             arr[i] = arr[i]*arr[i];
         }

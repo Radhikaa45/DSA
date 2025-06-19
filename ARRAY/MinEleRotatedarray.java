@@ -1,3 +1,4 @@
+//find minimum element in rotated array
 import java.util.Scanner;
 
 public class MinEleRotatedarray {

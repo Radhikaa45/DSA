@@ -1,5 +1,4 @@
 //kadane's ALgorithm
-
 import java.util.Scanner;
 
 public class maxsubarray{
