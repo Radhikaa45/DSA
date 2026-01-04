@@ -1,5 +1,5 @@
 public class Inserting {
-       Node head;
+    Node head;
     class Node{
         int data;
         Node next;
@@ -68,7 +68,7 @@ public class Inserting {
         System.out.println("null");
      }
      public static void main(String[] args){
-    helloll ll=new helloll();
+    Inserting ll=new Inserting();
     ll.addfirst(1);
     ll.addlast(3);
      ll.addlast(4);

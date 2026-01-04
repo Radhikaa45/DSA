@@ -68,7 +68,7 @@ public class length {
         System.out.println("length is "+pos);
         }
      public static void main(String[] args){
-    helloll ll=new helloll();
+    length ll=new length();
     ll.addfirst(1);
     ll.addlast(3);
      ll.addlast(4);

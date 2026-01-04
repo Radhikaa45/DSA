@@ -70,7 +70,7 @@ public class Searching {
         curnode.next=newnode;
      }
 public static void main(String[] args){
-    helloll ll=new helloll();
+    Searching ll=new Searching();
     ll.addfirst(1);
     ll.addlast(3);
      ll.addlast(4);
