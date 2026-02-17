@@ -1,0 +1,56 @@
+///////  stack using linked list 
+
+public class Stack1 {
+   static class Node{
+    int data;
+    Node next;
+    public Node(int data){
+        this.data=data;
+        next=null;
+}
+   }
+static class stackclass{
+ static Node head = null; 
+  public static boolean isEmpty(){
+    return head==null;
+  }
+  public static void push(int data){
+      Node newNode = new Node(data);
+    if(isEmpty()){
+        head=newNode;
+    }
+    else{
+    newNode.next=head;
+    head=newNode;}
+
+  }
+  public static int pop(){
+    if(isEmpty()){
+        System.out.println("stack is empty");
+         return -1;
+    }
+    int top=head.data;
+    head=head.next;
+    return top;
+  }
+  public static int peek(){
+    if(isEmpty()){
+         System.out.println("stack is empty");
+         return -1;
+    }
+    return head.data;
+  }
+
+}
+public static void main(String[] args) {
+    stackclass s=new stackclass();
+    s.push(10);
+    s.push(20);
+    s.push(30);
+    s.push(2);
+     while (!s.isEmpty()) {
+            System.out.println(s.peek());
+            s.pop();
+        }
+}
+   }
